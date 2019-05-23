@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateTeahouseSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="iframe_createBg_png" x="0" y="0"/>
+			<e:Image source="hall_json.createTeahouseTitle" x="423" y="7"/>
+			<e:Image id="tab1" source="hall_json.gameTab1" x="45" y="67"/>
+			<e:Image id="tab2" source="hall_json.gameTab2_select" x="231" y="67"/>
+			<e:Button id="createBtn" label="" y="508" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_json.createBtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+            <e:Group horizontalCenter="0" y="154" id="zjhGroup" visible="false">
+                <e:Image source="createRoomTileBg_png" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="69" horizontalCenter="0"/>
+                <!--<e:Image source="createRoomTileBg_png" y="292" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="361" horizontalCenter="0"/>-->
+                <e:Label text="选择模式" x="63" y="13" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox label="8局" x="209" y="14" id="eightRoundChk" selected="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox label="16局" x="478" y="14" id="sixteenRoundChk">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+
+                <e:Label text="支付方式" x="63" y="82" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox label="AA支付" x="209" y="83" id="payWay1" selected="true" visible="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox label="房主支付" x="399" y="83" id="payWay2" selected="false">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:Label id="roomCardNumTF3" text="（0张房卡）" x="303" y="12" fontFamily="Microsoft YaHei" textColor="0x8a4b0b"/>
+                <e:Label id="roomCardNumTF4" text="（0张房卡）" x="596" y="15" fontFamily="Microsoft YaHei" textColor="0x8a4b0b"/>
+            </e:Group>
+            <e:Group horizontalCenter="0" y="154" id="nnGroup">
+                <e:Image source="createRoomTileBg_png" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="69" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="138" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="207" horizontalCenter="0"/>
+                <e:Image source="createRoomTileBg_png" y="276" horizontalCenter="0"/>
+                <e:Label text="局数" x="63" y="13" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox id="tenRoundChk" label="10局" x="149" y="14" selected="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="tweentyRoundChk" label="20局" x="435" y="14">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+
+                <e:Label text="坐庄" x="63" y="82" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox id="zuozhuang1" label="轮流坐庄" x="149" y="83" selected="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="zuozhuang2" label="霸王庄" x="349" y="83">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="zuozhuang3" label="看牌抢庄" x="513" y="83">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="zuozhuang4" label="赢家当庄" x="719" y="83">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+
+                <e:Label text="倍数" x="63" y="151" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox id="beishu1" label="三倍封顶" x="149" y="152" selected="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="beishu2" label="五倍封顶" x="355" y="152">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="beishu3" label="不限制" x="571" y="152">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+
+                <e:Label text="底分" x="63" y="220" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox id="difen1" label="1/2/3/4" x="149" y="221" selected="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="difen2" label="2/4/6/8" x="355" y="221">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="difen3" label="3/6/9/12" x="571" y="221">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+
+                 <e:Label text="支付方式" x="63" y="289" fontFamily="Microsoft YaHei" size="28" textColor="0x8a4b0b" bold="true"/>
+                <e:CheckBox id="pay1" label="AA支付" x="209" y="290" selected="true" visible="true">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:CheckBox id="pay2" label="房主支付" x="399" y="290" selected="false">
+                    <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                        <e:Image  height="100%" source="hall_json.checkbox_default2" source.down="hall_json.checkbox_select2"/>
+                        <e:Label id="labelDisplay" textColor="0x8a4b0b" x="57" verticalCenter="0"/>
+                        </e:Skin>
+                    </e:skinName>
+                </e:CheckBox>
+                <e:Label id="roomCardNumTF" text="（0张房卡）" x="271" y="15" fontFamily="Microsoft YaHei" textColor="0x8a4b0b"/>
+                            <e:Label id="roomCardNumTF2" text="（0张房卡）" x="566" y="15" fontFamily="Microsoft YaHei" textColor="0x8a4b0b"/>	
+            </e:Group>
+            
+			
+    </e:Group>
+	
+</e:Skin>

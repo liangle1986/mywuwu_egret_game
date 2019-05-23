@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatEmotionItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="167e95b6dbf"/>
+	<e:Image source="common_json.bqBg" x="0" y="0" anchorOffsetX="0" width="372" anchorOffsetY="0" height="263"/>
+	<e:Image id="bq" source="emotion_json.bq1" horizontalCenter="-146" verticalCenter="-95"/>
+	<e:Image id="bq0" source="emotion_json.bq1" horizontalCenter="-53" verticalCenter="-94"/>
+	<e:Image id="bq1" source="emotion_json.bq1" horizontalCenter="43" verticalCenter="-94"/>
+	<e:Image id="bq2" source="emotion_json.bq1" horizontalCenter="136" verticalCenter="-94"/>
+	<e:Image id="bq3" source="emotion_json.bq1" horizontalCenter="-146" verticalCenter="-13"/>
+	<e:Image id="bq4" source="emotion_json.bq1" horizontalCenter="-53" verticalCenter="-13"/>
+	<e:Image id="bq5" source="emotion_json.bq1" horizontalCenter="43" verticalCenter="-13"/>
+</e:Skin>

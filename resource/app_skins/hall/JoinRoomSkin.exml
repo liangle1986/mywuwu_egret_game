@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JoinRoomSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="iframe_joinRoomBg_png" x="0" y="0"/>
+			<e:Image source="hall_json.joinRoomTitle" x="227" y="7"/>
+			<e:Label id="numTF" text="请输入房间ID" x="28" y="72" size="48" fontFamily="Microsoft YaHei" textColor="0x64330c" anchorOffsetX="0" width="539"/>
+			<e:Button id="btn1" label="" x="22" y="134">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_json.data1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="btn2" source="hall_json.data2" x="206" y="134"/>
+			<e:Image id="btn3" source="hall_json.data3" x="392" y="134"/>
+			<e:Image id="btn4" source="hall_json.data4" x="22" y="215"/>
+			<e:Image id="btn5" source="hall_json.data5" x="206" y="215"/>
+			<e:Image id="btn6" source="hall_json.data6" x="392" y="215"/>
+			<e:Image id="btn7" source="hall_json.data7" x="22" y="296"/>
+			<e:Image id="btn8" source="hall_json.data8" x="206" y="296"/>
+			<e:Image id="btn9" source="hall_json.data9" x="392" y="296"/>
+			<e:Image id="btn11" source="hall_json.delBtn" x="392" y="377"/>
+			<e:Image id="btn10" source="hall_json.reInputBtn" x="22" y="377"/>
+			<e:Image id="btn0" source="hall_json.data0" x="206" y="377"/>
+        
+    </e:Group>
+	
+    
+</e:Skin>

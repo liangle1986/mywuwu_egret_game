@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="1" verticalCenter="0">
+        <e:Image source="chatBg2_png" x="0" y="0"/>
+
+        <e:Scroller width="434"  height="203" y="94" horizontalCenter="0" id="tabContainer1">
+				<e:List id="list" >
+					<e:ArrayCollection>
+						<e:Array>
+							
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout requestedColumnCount="4" horizontalGap="19" verticalGap="15"/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+         <e:Scroller width="466"  height="203" y="94" horizontalCenter="0" id="tabContainer2" visible="false">
+				<e:List id="list2" >
+					<e:ArrayCollection>
+						<e:Array>
+							
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout gap="9"/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+			
+			<e:Image id="tab2" source="common_json.chatTab2" x="258" y="26"/>
+            <e:Image id="tab1" source="common_json.chatTab1_select" x="21" y="26"/>
+			<e:Label id="inputTF" text="请输入聊天内容..." x="30" y="331" anchorOffsetX="0" width="364"/>
+			<e:Button id="sendBtn" label="" x="403" y="326">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="common_json.sendBtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+    </e:Group>
+	
+</e:Skin>

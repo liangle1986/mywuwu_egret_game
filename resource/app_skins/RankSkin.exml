@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="rank_bg_png" />
+	<e:Image source="hall_json.rankTab_select" x="14" y="2" id="tabSelect"/>
+	<e:Image id="tab1" source="hall_json.rankTab1" x="36" y="12"/>
+	<e:Image id="tab2" source="hall_json.rankTab2" x="171" y="12"/>
+	<e:Image id="tab3" source="hall_json.rankTab3" x="301" y="12"/>
+    <e:Scroller width="405"  x="13" height="260" y="68">
+				<e:List id="list" >
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object title="赢家榜" headImg="" gold="10.11"/>
+							<e:Object title="战神榜" headImg="" gold="10.12"/>
+							<e:Object title="富豪榜" headImg="" gold="10.13"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout gap="85"/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+</e:Skin>

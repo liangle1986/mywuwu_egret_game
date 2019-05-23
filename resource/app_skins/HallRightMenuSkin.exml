@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallRightMenuSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Button label="" x="14" id="createTeahouseBtn">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="hall_json.createTeahouseBtn"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button label="" y="71" id="joinTeahouseBtn">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="hall_json.joinTeahouseBtn"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button label="" y="183" x="11" id="createRoomBtn">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="hall_json.createRoomBtn"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button label="" y="271" x="5" id="joinRoomBtn">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="hall_json.joinRoomBtn"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeahouseSetSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="iframe_teahouseSetBg_png" x="0" y="0"/>
+			<e:Image id="toggle" source="teahouse_json.t_toggleOff" x="170" y="66"/>
+			<e:Label text="（非大赢家模式请务必打开审核开关）" x="283" y="85" size="17" textColor="0xa93a3a" bold="true"/>
+			<e:Label id="inputTF" text="请输入公告，例如：您邀请的玩家加入您的微信 群信息" x="38" y="130" anchorOffsetX="0" width="532" anchorOffsetY="0" height="152" textColor="0x8f8f8f" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Button id="confirmBtn" label="" y="300" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="teahouse_json.t_confirmBtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+    </e:Group>
+	
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="iframe_buyBg_png" x="0" y="0"/>
+			<e:Label text="关注微信公众号：天乐棋牌" x="36" y="82" size="24" fontFamily="Microsoft YaHei" textColor="0x372d11"/>
+			<e:Label text="代理购卡享超大优惠，咨询微信号：" x="36" y="124" size="24" fontFamily="Microsoft YaHei" textColor="0x372d11"/>
+            <e:Label id="wxTF1" text="微信号：17302139567" x="36" y="181" size="24" fontFamily="Microsoft YaHei" textColor="0x372d11"/>
+			<e:Button id="copyBtn1" label="" x="275" y="178">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_json.copyBtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+            <e:Label id="mobileTF" text="公众号关注：杏趣社区" x="36" y="252" size="24" fontFamily="Microsoft YaHei" textColor="0x372d11"/>
+			<e:Button id="copyBtn2" label="" x="275" y="249">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_json.copyBtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+    </e:Group>
+</e:Skin>

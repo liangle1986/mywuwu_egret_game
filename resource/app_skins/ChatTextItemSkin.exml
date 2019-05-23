@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatTextItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<!--<e:Image source="common_json.bqBg" x="0" y="0"/>
+	<e:Image id="bq" source="emotion_json.bq1" horizontalCenter="0" verticalCenter="0"/>-->
+	<e:Label id="titleTF" text="--" x="0" y="0" fontFamily="Microsoft YaHei" textAlign="left"/>
+</e:Skin>

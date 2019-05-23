@@ -1,0 +1,13 @@
+{"file":"poker1.png","frames":{
+"card1_2":{"x":101,"y":267,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card1_3":{"x":1,"y":267,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card1_4":{"x":401,"y":134,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card2_1":{"x":301,"y":134,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card2_2":{"x":201,"y":134,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card2_3":{"x":101,"y":134,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card2_4":{"x":1,"y":134,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card3_1":{"x":402,"y":1,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card3_2":{"x":302,"y":1,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card3_3":{"x":202,"y":1,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card3_4":{"x":102,"y":1,"w":98,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131},
+"card1_1":{"x":1,"y":1,"w":99,"h":131,"offX":0,"offY":0,"sourceW":99,"sourceH":131}}}

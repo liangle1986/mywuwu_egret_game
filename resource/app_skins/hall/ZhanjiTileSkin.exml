@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhanjiTileSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zhanjiTileBg_png" x="0" y="0"/>
+	<e:Label id="rankTF" text="1" x="25" size="40" fontFamily="Microsoft YaHei" textColor="0x814314" bold="true" textAlign="left" verticalCenter="0"/>
+	<e:Label id="roomNumTF" text="房号：0" x="77" y="26" textColor="0x814314" fontFamily="Microsoft YaHei"/>
+	<e:Label id="timeTF" text="1990/1/1 00:00:00" x="77" y="77" size="20" fontFamily="Microsoft YaHei" textColor="0x814314"/>
+	<e:Label id="detailTF" text="" x="324" fontFamily="Microsoft YaHei" size="24" textColor="0x814314" anchorOffsetX="0" width="609" anchorOffsetY="0" height="113" wordWrap="true" multiline="true" verticalCenter="0" lineSpacing="10"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeahouseZhanjiTileSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="t_zhanjiTileBg_png" x="0" y="0"/>
+	<e:Label id="rankTF" text="1" x="4" y="45" fontFamily="Microsoft YaHei" size="40" textColor="0x814314" textAlign="center" width="58"/>
+	<e:Label id="roomNumTF" text="房号：0" x="57" y="25" fontFamily="Microsoft YaHei" textColor="0x814314"/>
+	<e:Label id="timeTF" text="12/1/1 00:00:00" x="60" y="77" size="20" fontFamily="Microsoft YaHei" textColor="0x814314"/>
+	<e:Label id="detailTF" text="" x="296" y="4" multiline="true" wordWrap="true" width="490" height="120" textColor="0x814314"/>
+	<e:Button label="Button" x="819" y="48"/>
+	<e:Image id="detailBtn" source="teahouse_json.t_chakanBtn" x="798" y="38" visible="false"/>
+    
+</e:Skin>

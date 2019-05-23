@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerDetailInfoSkin2" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        	<e:Image source="playerInfoBg2_png" x="0" y="0"/>
+			<e:Label id="nickNameTF" text="--" x="201" y="85" textColor="0x372d11" fontFamily="Microsoft YaHei" size="24" width="374" textAlign="left" anchorOffsetX="0"/>
+			<e:Label id="idTF" text="ID:" x="201" y="131" textAlign="left" fontFamily="Microsoft YaHei" size="24" textColor="0x372d11" width="300"/>
+			<e:Label id="ipTF" text="IP:" x="201" y="179" fontFamily="Microsoft YaHei" size="24" textColor="0x372d11" width="300"/>
+			<e:Label id="distanceTF" text="--" x="201" y="218" fontFamily="Microsoft YaHei" size="24" textColor="0x372d11" width="300"/>
+			<!--<e:Image source="hall_json.testface2" x="45" y="88"/>-->
+			<e:Image id="bq1" source="emotion_json.dzh" x="69" y="245"/>
+			<e:Image id="bq2" source="emotion_json.hc" x="170" y="252"/>
+			<e:Image id="bq4" source="emotion_json.jd" x="396" y="250"/>
+			<e:Image id="bq3" source="emotion_json.pj" x="280" y="249"/>
+			<e:Image id="bq5" source="emotion_json.xh" x="510" y="254"/>
+    </e:Group>
+	
+</e:Skin>

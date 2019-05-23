@@ -1,0 +1,16 @@
+{
+  "global": {
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20
+  },
+  "167e95b6dbf": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

@@ -1,0 +1,4 @@
+class DTextField {
+	public constructor() {
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelfInfoSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="hall_json.selfInfoBg" />
+    <e:Label text="昵称" id="nickNameTF" x="62" y="11" size="17" fontFamily="Microsoft YaHei" textAlign="left" width="142"/>
+    <e:Label text="ID:" id="idTF" x="62" y="30" size="17" fontFamily="Microsoft YaHei" textAlign="left" width="142"/>
+    <!--<e:Image source="hall_json.roomCardBg" x="226" y="1"/>-->
+    <e:Button label="0" x="226" y="1" id="roomCardBtn">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="hall_json.roomCardBg"/>
+            <e:Image source="hall_json.coinAddBtn" x="146" y="6"/>
+            
+            
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Label id="roomCardTF" size="25" textColor="0x000000" text="0" x="270" y="13" textAlign="left" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="103"/>
+</e:Skin>

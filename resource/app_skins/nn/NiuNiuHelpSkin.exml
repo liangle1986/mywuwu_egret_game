@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuNiuHelpSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+<e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+    <e:Image source="help_png" x="0" y="0"/>
+	<e:Label id="wanfaTF" text="--" x="130" y="46" anchorOffsetX="0" width="217" textColor="0x784a23" fontFamily="Microsoft YaHei"/>
+    <e:Label id="difenTF" text="--" x="500" y="46" anchorOffsetX="0" width="217" textColor="0x784a23" fontFamily="Microsoft YaHei"/>
+    <e:Label id="fanbeiTF" text="--" x="192" y="143" anchorOffsetX="0" width="524" textColor="0x784a23" fontFamily="Microsoft YaHei"/>
+    <e:Label id="fangjianTF" text="--" x="192" y="249" anchorOffsetX="0" width="524" textColor="0x784a23" fontFamily="Microsoft YaHei"/>
+    <e:Label id="teshuTF" text="--" x="192" y="359" anchorOffsetX="0" width="524" textColor="0x784a23" fontFamily="Microsoft YaHei"/>
+</e:Group>
+	
+</e:Skin>

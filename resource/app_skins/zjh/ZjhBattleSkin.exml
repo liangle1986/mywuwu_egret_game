@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZjhBattleSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="n_bg_png" x="0" y="0"/>
+	<e:Image source="n_infoBg_png" x="81" y="4"/>
+	<e:Image source="nnGame2_json.n_timeBg" x="5" y="4"/>
+	<e:Label id="timeTF" text="00:00" x="8" y="13" textAlign="center" size="24" fontFamily="Microsoft YaHei"/>
+	<e:Label id="infoTF" text="茶楼编号:" x="88" y="13" textAlign="left" size="24" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="556"/>
+	
+	<e:Group x="480" y="46" id="player3">
+		<e:Image source="nnGame2_json.nn_playerBg2" />
+		<!--<e:Image source="nnGame2_json.n_goldBg" x="-116" y="29"/>-->
+		<e:Group x="-116" y="29" id="bet3">
+			<e:Image source="nnGame2_json.n_goldBg"/>
+			<e:Label id="betScore3" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+		</e:Group>
+		
+		<e:Image source="nnGame2_json.n_zhuangKuang2" x="12" y="-8" id="zhuang3"/>
+		<e:Label id="nickName3" text="--" x="78" y="12" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="99" textAlign="left"/>
+		<e:Label id="score3" text="0" x="91" y="44" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="62" textAlign="center"/>
+		<e:Group id="cardGroup3" x="46" y="84">
+			<e:Image source="poker5_json.cardBg2" id="cardGroup3_0"/>
+			<e:Image source="poker5_json.cardBg2" x="20" id="cardGroup3_1"/>
+			<e:Image source="poker5_json.cardBg2" x="40" id="cardGroup3_2"/>
+			<e:Image source="poker5_json.cardBg2" x="60" id="cardGroup3_3" visible="false"/>
+			<e:Image source="poker5_json.cardBg2" x="80" id="cardGroup3_4" visible="false"/>
+		</e:Group>
+		<e:Image source="nnGame2_json.n_buqiang" x="-39.5" y="111" id="qiangFlag3" visible="false"/>
+		<e:Image id="cardType3" source="niuniu_json.niu0" x="-9" y="130" anchorOffsetX="46" anchorOffsetY="24" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image source="nnGame2_json.offline" x="10" y="54" id="offline3"/>
+		<e:Image id="e3" source="emotion_json.bq1" x="9" y="8"/>
+        <e:Image source="nnGame2_json.n_readyed" x="65" y="114" id="readyed3"/>
+        <e:Image id="statusTip3" source="zjhGame_json.qipaiFlag" x="78" y="-33"/>
+	</e:Group>
+	
+
+	<e:Group x="816" y="103" id="player2">
+		<e:Image source="nnGame2_json.nn_playerBg2" />
+		<!--<e:Image source="nnGame2_json.n_goldBg" x="77" y="88"/>-->
+		<e:Group x="77" y="88" id="bet2">
+			<e:Image source="nnGame2_json.n_goldBg"/>
+			<e:Label id="betScore2" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+
+		</e:Group>
+		
+		<e:Image source="nnGame2_json.n_zhuangKuang2" x="12" y="-8" id="zhuang2"/>
+		<e:Label id="nickName2" text="--" x="78" y="12" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="99" textAlign="left"/>
+		<e:Label id="score2" text="0" x="91" y="44" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="62" textAlign="center"/>
+		<e:Group id="cardGroup2" x="-54" y="83">
+			<e:Image source="poker5_json.cardBg2" id="cardGroup2_0"/>
+			<e:Image source="poker5_json.cardBg2" x="20" id="cardGroup2_1"/>
+			<e:Image source="poker5_json.cardBg2" x="40" id="cardGroup2_2"/>
+			<e:Image source="poker5_json.cardBg2" x="60" id="cardGroup2_3" visible="false"/>
+			<e:Image source="poker5_json.cardBg2" x="80" id="cardGroup2_4" visible="false"/>
+		</e:Group>
+		<e:Image source="nnGame2_json.n_buqiang" x="-39.5" y="111" id="qiangFlag2" visible="false"/>
+		<e:Image id="cardType2" source="niuniu_json.niu0" x="-9" y="130" anchorOffsetX="46" anchorOffsetY="24" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image source="nnGame2_json.offline" x="10" y="54" id="offline2"/>
+		<e:Image id="e2" source="emotion_json.bq1" x="9" y="8"/>
+        <e:Image source="nnGame2_json.n_readyed" x="-38" y="115" id="readyed2"/>
+        <e:Image id="statusTip2" source="zjhGame_json.qipaiFlag" x="76" y="-63"/>
+		
+	</e:Group>
+
+	<e:Group x="949" y="310" id="player1">
+		<e:Image source="nnGame2_json.nn_playerBg2" />
+		<!--<e:Image source="nnGame2_json.n_goldBg" x="77" y="88"/>-->
+		<e:Group x="77" y="88" id="bet1">
+			<e:Image source="nnGame2_json.n_goldBg"/>
+			<e:Label id="betScore1" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+
+		</e:Group>
+		<e:Image source="nnGame2_json.n_readyed" x="-38" y="115" id="readyed1"/>
+		<e:Image source="nnGame2_json.n_zhuangKuang2" x="12" y="-8" id="zhuang1"/>
+		<e:Label id="nickName1" text="--" x="78" y="12" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="99" textAlign="left"/>
+		<e:Label id="score1" text="0" x="91" y="44" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="62" textAlign="center"/>
+		<e:Group id="cardGroup1" x="-124">
+			<e:Image source="poker5_json.cardBg2" id="cardGroup1_0"/>
+			<e:Image source="poker5_json.cardBg2" x="20" id="cardGroup1_1"/>
+			<e:Image source="poker5_json.cardBg2" x="40" id="cardGroup1_2"/>
+			<e:Image source="poker5_json.cardBg2" x="60" id="cardGroup1_3" visible="false"/>
+			<e:Image source="poker5_json.cardBg2" x="80" id="cardGroup1_4" visible="false"/>
+		</e:Group>
+		<e:Image source="nnGame2_json.n_buqiang" x="-112" y="21" id="qiangFlag1" visible="false"/>
+		<e:Image id="cardType1" source="niuniu_json.niu0" x="-75.6" y="38.2" anchorOffsetX="46" anchorOffsetY="24" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image source="nnGame2_json.offline" x="10" y="54" id="offline1"/>
+		<e:Image id="e1" source="emotion_json.bq1" x="9" y="8"/>
+        <e:Image id="statusTip1" source="zjhGame_json.qipaiFlag" x="69" y="-77"/>
+	</e:Group>
+
+	<e:Group x="120" y="102" id="player4">
+		<e:Image source="nnGame2_json.nn_playerBg2" />
+		<e:Group x="-2" y="86" id="bet4">
+			<e:Image source="nnGame2_json.n_goldBg"/>
+			<e:Label id="betScore4" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+
+		</e:Group>
+		
+		<e:Image source="nnGame2_json.n_readyed" x="222" y="30" id="readyed4"/>
+		<e:Image source="nnGame2_json.n_zhuangKuang2" x="12" y="12" id="zhuang4" anchorOffsetY="0" height="52"/>
+		<e:Label id="nickName4" text="--" x="78" y="12" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="99" textAlign="left"/>
+		<e:Label id="score4" text="0" x="91" y="45" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="62" textAlign="center"/>
+		<e:Group id="cardGroup4" x="162" y="84">
+			<e:Image source="poker5_json.cardBg2" id="cardGroup4_0"/>
+			<e:Image source="poker5_json.cardBg2" x="20" id="cardGroup4_1"/>
+			<e:Image source="poker5_json.cardBg2" x="40" id="cardGroup4_2"/>
+			<e:Image source="poker5_json.cardBg2" x="60" id="cardGroup4_3" visible="false"/>
+			<e:Image source="poker5_json.cardBg2" x="80" id="cardGroup4_4" visible="false"/>
+			
+			
+		</e:Group>
+		<e:Image source="nnGame2_json.n_buqiang" x="177" y="112" id="qiangFlag4" visible="false"/>
+		<e:Image id="cardType4" source="niuniu_json.niu0" x="209" y="130" anchorOffsetX="46" anchorOffsetY="24" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image source="nnGame2_json.offline" x="10" y="54" id="offline4"/>
+		<e:Image id="e4" source="emotion_json.bq1" x="106" y="16.5"/>
+        <e:Image id="statusTip4" source="zjhGame_json.qipaiFlag" x="92" y="-50"/>
+	</e:Group>
+
+	<e:Group x="6" y="310" id="player5">
+		<e:Image source="nnGame2_json.nn_playerBg2" />
+		<e:Group x="-2" y="86" id="bet5">
+			<e:Image source="nnGame2_json.n_goldBg"/>
+			<e:Label id="betScore5" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+
+		</e:Group>
+		
+		<e:Image source="nnGame2_json.n_zhuangKuang2" x="12" y="-8" id="zhuang5"/>
+		<e:Label id="nickName5" text="--" x="78" y="12" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="99" textAlign="left"/>
+		<e:Label id="score5" text="0" x="91" y="44" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="62" textAlign="center"/>
+		<e:Group id="cardGroup5" x="195">
+			<e:Image source="poker5_json.cardBg2" id="cardGroup5_0"/>
+			<e:Image source="poker5_json.cardBg2" x="20" id="cardGroup5_1"/>
+			<e:Image source="poker5_json.cardBg2" x="40" id="cardGroup5_2"/>
+			<e:Image source="poker5_json.cardBg2" x="60" id="cardGroup5_3"/>
+			<e:Image source="poker5_json.cardBg2" x="80" id="cardGroup5_4"/>
+		</e:Group>
+		<e:Image source="nnGame2_json.n_buqiang" x="228" y="22" id="qiangFlag5" visible="false"/>
+		<e:Image id="cardType5" source="niuniu_json.niu0" x="260" y="40" anchorOffsetX="46" anchorOffsetY="24" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Image source="nnGame2_json.offline" x="10" y="54" id="offline5"/>
+		<e:Image id="e5" source="emotion_json.bq1" x="9" y="8"/>
+        <e:Image source="nnGame2_json.n_readyed" x="222" y="30" id="readyed5"/>
+		<e:Image id="statusTip5" source="zjhGame_json.qipaiFlag" x="92" y="-55"/>
+	</e:Group>
+
+	<e:Button id="quitBtn" label="" y="25" right="21">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_quitBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="helpBtn" label="" right="21" y="108">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_helpBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	
+	<e:Image source="n_bottomeBg_png" x="0" bottom="1" locked="true"/>
+	<e:Image source="nnGame2_json.nameBg" x="191" bottom="3"/>
+	<e:Image source="nnGame2_json.n_scoreBg" x="426" bottom="3"/>
+	<e:Button id="setBtn" label="" bottom="3" right="230">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_setBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="chatBtn" label="" bottom="2" right="131">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_chatBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="recordBtn" label="" bottom="2" right="41">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_recordBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="player0" x="37" y="544">
+		<e:Label id="nickName0" text="--" x="170.5" size="30" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" width="149" bottom="73"/>
+		<e:Label id="score0" text="0" x="380" size="30" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" width="149" bottom="9" textColor="0xddc687"/>
+		<e:Image source="nnGame2_json.n_faceKuang" />
+		<e:Image source="nnGame2_json.n_zhuangKuang" y="-38" id="zhuang0"/>
+		<!--<e:Image id="e0" source="emotion_json.bq1" x="18" y="20"/>-->
+		<!--<e:Image source="nnGame2_json.flyCoin" x="30" y="33"/>-->
+		<e:Image id="e0" source="emotion_json.bq1" x="18" y="20"/>
+        <e:Image id="statusTip0" source="zjhGame_json.qipaiFlag" x="37" y="-85"/>
+	</e:Group>
+	
+
+	<e:Button id="inviteBtn" label="" y="241" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_inviteBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="readyBtn" label="" y="324" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_readyBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="176" bottom="60" id="countDown">
+		<e:Image source="nnGame2_json.clockBg" />
+		<e:Label id="countDownTF" text="10" x="10" y="32" anchorOffsetX="0" width="59" textAlign="center" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	
+	<e:Group id="qiangzhuangGroup" y="390" horizontalCenter="0" visible="false">
+		<e:Button id="qiang0" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_buqiangBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="qiang1" label="" x="161">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_1times"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="qiang2" label="" x="325">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nnGame2_json.n_2times"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="qiang3" label="" x="484">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nnGame2_json.n_3times"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="qiang4" label="" x="638">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nnGame2_json.n_4times"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		
+		
+	</e:Group>
+	<e:Image id="bankerIcon" source="nnGame2_json.n_bankerIcon" y="311" x="534"/>
+	<e:Group id="cardGroup0" y="444" horizontalCenter="0">
+		<e:Image source="poker5_json.cardBg" id="cardGroup0_0"/>
+		<e:Image source="poker5_json.cardBg" x="108" id="cardGroup0_1"/>
+		<e:Image source="poker5_json.cardBg" x="216" id="cardGroup0_2"/>
+		<e:Image source="zjhGame_json.kanpaiTip" y="38" horizontalCenter="0.5"/>
+		<!--<e:Image source="poker5_json.cardBg" x="324" id="cardGroup0_3"/>-->
+		<!--<e:Image source="poker5_json.cardBg" x="432" id="cardGroup0_4"/>-->
+		<!--<e:Image id="arrow" source="nnGame2_json.n_arrow" x="441" y="24"/>-->
+		<!--<e:Image id="cardType0" source="niuniu_json.niu0" y="42" horizontalCenter="0"/>-->
+	</e:Group>
+	<e:Button id="liangpaiBtn" label="" x="880" y="478" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nnGame2_json.n_kaipaiBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="nnGame2_json.n_readyed" y="495.5" id="readyed0" horizontalCenter="0.5"/>
+	<e:Image id="qiangFlag0" source="nnGame2_json.n_qiangzhuang1" y="369" horizontalCenter="9" visible="false"/>
+	<e:Group id="betGroup" horizontalCenter="0" y="390">
+		<e:Button id="bei1" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjhGame_json.1fenBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="bei2" label="" x="161">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjhGame_json.2fenBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="bei3" label="" x="322" y="-1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjhGame_json.3fenBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<!--<e:Button id="bei12" label="" x="483">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nnGame2_json.bei12"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+		
+	</e:Group>
+	<e:Group y="396" id="bet0" horizontalCenter="0" visible="false">
+		<e:Image source="nnGame2_json.n_goldBg" x="20"/>
+		<e:Label id="betScore0" text="0" x="34" y="10" size="16" fontFamily="Microsoft YaHei" width="68" textAlign="center"/>
+	</e:Group>
+	<e:Group x="8" y="457" id="chat0">
+		<e:Image  source="common_json.chatpaopao" />
+		<e:Label text="--" x="5" y="14" id="chatTF0" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="chat5"  x="8" y="253">
+		<e:Image source="common_json.chatpaopao"/>
+		<!--<e:Image id="e5" source="emotion_json.bq1" x="7" y="68"/>-->
+		<e:Label text="--" x="5" y="14" id="chatTF5" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="chat4" x="105" y="53">
+		<e:Image source="common_json.chatpaopao" />
+		<!--<e:Image id="e4" source="emotion_json.bq1" x="22" y="57"/>-->
+		<e:Label text="--" x="5" y="14" id="chatTF4" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="chat3" x="468" y="13">
+		<e:Image source="common_json.chatpaopao" />
+		<!--<e:Image id="e3" source="emotion_json.bq1" x="21" y="40"/>-->
+		<e:Label text="--" x="5" y="14" id="chatTF3" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="chat2" x="800" y="40">
+		<e:Image source="common_json.chatpaopao" />
+		<e:Label text="--" x="5" y="14" id="chatTF2" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="chat1" x="929" y="234">
+		<e:Image source="common_json.chatpaopao" />
+		<e:Label text="--" x="5" y="14" id="chatTF1" anchorOffsetX="0" width="180" size="20" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Button id="bipaiBtn" label="" x="738" y="510">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjhGame_json.cancelBipaiBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+    <e:Button id="qipaiBtn" label="" x="925" y="510">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjhGame_json.bipaiBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

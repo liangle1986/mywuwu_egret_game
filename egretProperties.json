@@ -26,12 +26,16 @@
     },
     {
       "name": "promise"
+    },
+    {
+      "name": "weixinapi",
+      "path": "./libs/weixinapi"
     }
   ],
   "targets": {
     "android": {
-      "appname": "AAAAAAA",
-      "packagename": "com.companyname"
+      "appname": "六六魔王",
+      "packagename": "com.mywuwu"
     }
   }
 }

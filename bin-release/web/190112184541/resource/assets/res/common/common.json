@@ -1,0 +1,13 @@
+{"file":"common.png","frames":{
+"bqBg":{"x":406,"y":1,"w":94,"h":94,"offX":0,"offY":0,"sourceW":94,"sourceH":94},
+"c_resultTile":{"x":1,"y":1,"w":155,"h":443,"offX":0,"offY":0,"sourceW":155,"sourceH":443},
+"c_shareBtn":{"x":158,"y":265,"w":191,"h":58,"offX":0,"offY":0,"sourceW":191,"sourceH":58},
+"chatpaopao":{"x":158,"y":1,"w":192,"h":66,"offX":0,"offY":0,"sourceW":192,"sourceH":66},
+"chatTab1":{"x":158,"y":118,"w":246,"h":47,"offX":0,"offY":0,"sourceW":246,"sourceH":47},
+"chatTab1_select":{"x":158,"y":69,"w":246,"h":47,"offX":0,"offY":0,"sourceW":246,"sourceH":47},
+"chatTab2":{"x":158,"y":216,"w":246,"h":47,"offX":0,"offY":0,"sourceW":246,"sourceH":47},
+"chatTab2_select":{"x":158,"y":167,"w":246,"h":47,"offX":0,"offY":0,"sourceW":246,"sourceH":47},
+"fangzhuflag":{"x":406,"y":138,"w":54,"h":35,"offX":0,"offY":0,"sourceW":54,"sourceH":35},
+"sendBtn":{"x":406,"y":97,"w":105,"h":39,"offX":0,"offY":0,"sourceW":105,"sourceH":39},
+"winnerIcon":{"x":351,"y":265,"w":143,"h":38,"offX":0,"offY":0,"sourceW":143,"sourceH":38},
+"yuyinIcon":{"x":352,"y":1,"w":24,"h":32,"offX":0,"offY":0,"sourceW":24,"sourceH":32}}}

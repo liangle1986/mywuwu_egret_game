@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyTeahouseListSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="myteahouseList_bg_png" />
+	<e:Image id="btn" source="hall_json.myTeahouseBtn" x="270" y="4"/>
+    <e:Scroller width="249"  x="10" height="400" y="18">
+				<e:List id="list" >
+					<e:ArrayCollection>
+						<e:Array>
+							<!--<e:Object title="赢家榜" headImg="" gold="10.11"/>
+							<e:Object title="战神榜" headImg="" gold="10.12"/>
+							<e:Object title="富豪榜" headImg="" gold="10.13"/>-->
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout gap="5"/>
+					</e:layout>
+				</e:List>
+	</e:Scroller>
+</e:Skin>

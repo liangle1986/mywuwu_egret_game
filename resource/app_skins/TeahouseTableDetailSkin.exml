@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeahouseTableDetailSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="iframe_teahouseDetail_bg_png" x="0" y="0"/>
+        <e:Scroller width="561" horizontalCenter="0" height="380" y="106">
+				<e:List id="list" >
+					<e:ArrayCollection>
+						<e:Array>
+							<!--<e:Object title="赢家榜" headImg="" gold="10.11"/>
+							<e:Object title="战神榜" headImg="" gold="10.12"/>
+							<e:Object title="富豪榜" headImg="" gold="10.13"/>-->
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout gap="13"/>
+					</e:layout>
+				</e:List>
+		</e:Scroller>
+    </e:Group>
+	
+</e:Skin>

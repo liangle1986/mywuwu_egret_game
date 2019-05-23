@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyTeahouseListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="myTeahouseTileBg_png" x="0" y="0"/>
+	<e:Label id="gameNameTF" text="牛牛" x="80" y="14" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="160" textColor="0x7a3176"/>
+	<e:Label id="bossTF" text="老板：" x="82" y="47" textColor="0x5a349b" size="19" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="158"/>
+</e:Skin>

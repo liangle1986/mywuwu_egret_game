@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeahouseWinnerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="teahouse_json.t_teamListItemBg" x="0" y="0"/>
+	<e:Label id="idTF" text="ID:" x="71" y="2" textColor="0x7b3b0c" size="24" fontFamily="Microsoft YaHei" width="148"/>
+	<e:Label id="nickNameTF" text="--" x="71" y="29" textColor="0x7b3b0c" size="24" fontFamily="Microsoft YaHei"/>
+	<e:Label id="winCountTF" text="0" x="237" y="14" size="32" textColor="0x7b3b0c" fontFamily="Microsoft YaHei" width="164" textAlign="center"/>
+</e:Skin>

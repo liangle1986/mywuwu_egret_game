@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TuiGuangSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="maskBg" width="100%" height="100%" fillAlpha="0.5" strokeAlpha="0" touchEnabled="true"/>
+    <e:Group id="mainView" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="tgBg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Label id="inputTF" text="请输入推广码" x="66" y="133" anchorOffsetX="0" width="492" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+			<e:Button id="bindBtn" label="" y="227" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_json.bindBtn3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+        
+    </e:Group>
+</e:Skin>

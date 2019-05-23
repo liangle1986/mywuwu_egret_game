@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NNGameResultTileSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_json.c_resultTile" x="0" y="0"/>
+	<e:Image id="winnerIcon" source="common_json.winnerIcon" y="419" horizontalCenter="0"/>
+	<e:Label id="nickNameTF" text="--" x="62" y="11" size="16" fontFamily="Microsoft YaHei" textColor="0x604523" width="86"/>
+    <e:Label id="idTF" text="--" x="62" y="34" size="16" fontFamily="Microsoft YaHei" textColor="0x604523" width="86"/>
+	<e:Label id="cardTypeTF0_0" text="五小牛" y="75" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF0_1" text="1" y="75" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF1_0" text="五小牛" y="109" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF1_1" text="1" y="109" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF2_0" text="五小牛" y="143" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF2_1" text="1" y="143" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF3_0" text="五小牛" y="177" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF3_1" text="1" y="177" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF4_0" text="五小牛" y="211" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF4_1" text="1" y="211" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF5_0" text="五小牛" y="245" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF5_1" text="1" y="245" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label id="cardTypeTF6_0" text="五小牛" y="279" anchorOffsetX="0" width="90" anchorOffsetY="0" height="36" horizontalCenter="-28.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10"/>
+	<e:Label id="cardTypeTF6_1" text="1" y="279" anchorOffsetX="0" width="62" anchorOffsetY="0" height="36" horizontalCenter="43.5" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" lineSpacing="10" textAlign="right"/>
+	
+	<e:Label text="总分：" x="4" y="313" textColor="0x000000" fontFamily="Microsoft YaHei" size="32"/>
+</e:Skin>

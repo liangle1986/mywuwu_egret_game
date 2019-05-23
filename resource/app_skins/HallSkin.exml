@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hall_bg_jpg" x="0" y="0" width="100%" height="100%"/>
+	<e:Component x="24" y="13" id="selfInfo" skinName="SelfInfoSkin"/>
+	<!--<e:Image source="hall_json.logo2" x="489" y="-3"/>-->
+	<e:Component id="topMenu" skinName="HallTopMenuSkin"  y="12" right="14"/>
+	<e:Image id="roleImg" source="role2_png" x="0" y="152"/>
+	
+     <!--<e:Group id="notice" top="93">
+        <e:Image source="notice_bg_png"  horizontalCenter="0"/>
+        <e:Label id="noticeTF" text="公告" x="202" y="15" size="25" fontFamily="Microsoft YaHei"/>
+    </e:Group>-->
+	<e:Component id="myTeahouseList" skinName="MyTeahouseListSkin"  x="-270" y="162"/>
+	<e:Component id="rightMenu" skinName="HallRightMenuSkin"  top="164" x="814"/>
+	<e:Component id="bottomMenu" skinName="HallBottomMenuSkin"  right="0" bottom="0"/>
+</e:Skin>
