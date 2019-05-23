@@ -1,41 +1,41 @@
 {
-  "engineVersion": "5.2.13",
-  "compilerVersion": "5.2.13",
-  "template": {},
-  "target": {
-    "current": "web"
-  },
-  "modules": [
-    {
-      "name": "egret"
-    },
-    {
-      "name": "game"
-    },
-    {
-      "name": "tween"
-    },
-    {
-      "name": "assetsmanager"
-    },
-    {
-      "name": "eui"
-    },
-    {
-      "name": "socket"
-    },
-    {
-      "name": "promise"
-    },
-    {
-      "name": "weixinapi",
-      "path": "./libs/weixinapi"
-    }
-  ],
-  "targets": {
-    "android": {
-      "appname": "六六魔王",
-      "packagename": "com.mywuwu"
-    }
-  }
+	"engineVersion": "5.2.15",
+	"compilerVersion": "5.2.15",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "weixinapi",
+			"path": "./libs/weixinapi"
+		}
+	],
+	"targets": {
+		"android": {
+			"appname": "六六魔王",
+			"packagename": "com.mywuwu"
+		}
+	}
 }

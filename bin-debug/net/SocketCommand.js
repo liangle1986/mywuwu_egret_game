@@ -52,8 +52,8 @@ var SocketCommand = (function () {
         // 	socket_ip = 'ws://127.0.0.1';
         // 	socket_port = 8081;
         // }
-        // this._socket.connectByUrl(socket_ip + ":" + socket_port + "/mywuwu/websocket/"+  GameModel.instance().token);
-        this._socket.connect('127.0.0.1', 8083);
+        this._socket.connectByUrl("ws://192.168.0.106:8083/hall?id=A200044&token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBMjAwMDQ0IiwiY3JlYXRlZCI6MTU1MjY1NDEwMjM5MywiZXhwIjoxNTUyNzc0MTAyfQ.BjJQWWmR7B0ClhQQu09uswMV-5l1iDfhXphQ2w09t3LKgcN-A-fsXAatXEyOlq9e2c6Sstq7GxgOTBeH_aWXhA");
+        // this._socket.connect('127.0.0.1', 8083);
     };
     SocketCommand.prototype.onSocketIOError = function (evt) {
         this.onSocketClosed(null);
